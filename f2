@@ -1,0 +1,8 @@
+/*A square of squares*/
+/*Given an integral number, determine if it's a square number:*/
+var isSquare = function(n){
+  let result = Math.sqrt(n);
+    return (result % 1 === 0);
+}
+
+isSquare(5);
