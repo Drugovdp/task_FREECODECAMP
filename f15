@@ -2,7 +2,7 @@
 
 function solution(str, ending){
 
-    return str.split('').slice(-(ending.length)).join('') == ending ? true : false;
+    return ending.length == 0 ? true : str.split('').slice(-(ending.length)).join('') == ending ? true : false;
 }
 
 let str1 = "How can mirrors";
